@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>index</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="overflow: hidden;">
+<div class="logo"><img src="coca-cola-logo.png"></div>
+<div class="wave-1">
+	<div style="position: absolute;width: 100vw;top: 20px;left: 50px;z-index: 100;">
+		<!-- <img height="50" width="200" src="coca-cola-logo.png"> -->
+		<div class="home-links">
+			<button class="home-link home-active home">HOME</button>
+			<button class="home-link about">ABOUT</button>
+			<button class="home-link history">HISTORY</button>
+			<button class="home-link contact">CONTACT US</button>
+		</div>
+	</div>
+</div>
+<div class="water-droplet">
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+	<div class="bubble"></div>
+</div>
+<div class="content" style="height: 750px; width: 100%;background: linear-gradient(red,rgb(173, 34, 34));position: relative;">
+	<div class="top-bar">
+		<div class="links">
+			<button class="link home">HOME</button>
+			<button class="link about">ABOUT</button>
+			<button class="link history">HISTORY</button>
+			<button class="link contact">CONTACT US</button>
+		</div>
+	</div>
+	<div class="coke-image">
+		<img src="coke2.png">
+	</div>
+	<div class="about-content">
+		<h1><b>The Coca-Cola Company</b></h1>
+		<br>
+		<h2>
+			The Coca-Cola Company (NYSE: KO) is a total beverage company, offering over 500 brands in more than 200 countries and territories. In addition to the company’s Coca-Cola brands, our portfolio includes some of the world’s most valuable beverage brands, such as AdeS soy-based beverages, Ayataka green tea, Dasani waters, Del Valle juices and nectars, Fanta, Georgia coffee, Gold Peak teas and coffees, Honest Tea, innocent smoothies and juices, Minute Maid juices, Powerade sports drinks, Simply juices, smartwater, Sprite, vitaminwater and ZICO coconut water. We’re constantly transforming our portfolio, from reducing sugar in our drinks to bringing innovative new products to market. We’re also working to reduce our environmental impact by replenishing water and promoting recycling. With our bottling partners, we employ more than 700,000 people, helping bring economic opportunity to local communities worldwide.
+		</h2>
+	</div>
+</div>
+
+<div style="height: 750px; width: 100%;background: linear-gradient(rgb(173, 34, 34),rgb(163, 32, 32));position: relative;">
+	<div class="coke-history-image">
+		<img src="coke-history.png">
+	</div>
+	<div class="history-content">
+		<h1><b>The Coca-Cola Company History</b></h1>
+		<br>
+		<h2>
+		Coca-Cola, or Coke, is a carbonated soft drink manufactured by The Coca-Cola Company. Originally marketed as a temperance drink and intended as a patent medicine, it was invented in the late 19th century by John Stith Pemberton and was bought out by businessman Asa Griggs Candler, whose marketing tactics led Coca-Cola to its dominance of the world soft-drink market throughout the 20th century.[1] The drink's name refers to two of its original ingredients: coca leaves, and kola nuts (a source of caffeine). The current formula of Coca-Cola remains a trade secret; however, a variety of reported recipes and experimental recreations have been published. The drink has inspired imitators and created a whole classification of soft drink: colas.
+		<br>
+		<br>
+		The Coca-Cola Company produces concentrate, which is then sold to licensed Coca-Cola bottlers throughout the world. The bottlers, who hold exclusive territory contracts with the company, produce the finished product in cans and bottles from the concentrate, in combination with filtered water and sweeteners.
+	</div>
+</div>
+<div style="height: 750px; width: 100%;background: linear-gradient(rgb(163, 32, 32),rgb(132, 50, 50));position: relative;display: flex;justify-content: center;align-content: center;align-items: center;">
+	<div class="contact-content">
+		<h1 style="color:cyan">Contact Us</h1>
+		<input type="taxt" name="name">
+		<input type="email" name="email">
+		<textarea></textarea>
+		<input type="submit" name="submit">
+	</div>
+</div>
+<script type="text/javascript">
+// 	$(window).on( 'wheel', function(e){
+//     var level = e.originalEvent.deltaY;
+//     var flag = false;
+//     if (level >= 0) {
+//     	flag = false;
+//     }
+//     else{
+//     	flag = true;
+//     }
+
+//     if (flag) {
+//     	console.log(e.originalEvent.deltaY);
+//     	$('.wave-1').append(`<style>.wave-1:before{bottom:19vh !important;}</style>`);
+//     	$('.wave-1').append(`<style>.wave-1:after{bottom:12vh !important;}</style>`);
+//     }
+//     else{
+//     	for (var i =0 ; i <= 100; i++) {
+//     		var levelBefore = i + 19;
+//     		var levelAfter 	= i + 12;
+//     		$('.wave-1').append(`<style>.wave-1:before{bottom:${levelBefore}vh !important;}</style>`);
+//     		$('.wave-1').append(`<style>.wave-1:after{bottom:${levelAfter}vh !important;}</style>`);
+//     	}
+//     }
+// });
+$(window).on('scroll',function(e)
+{
+	const max = ($(window).height());
+	let top = max - $(window).scrollTop();
+	if(top < 0) top = 0;
+	const topPerc = 29 * top / max + 1;
+	const leftPerc = 27 * top / max + 1;
+	const widthPerc = 480 * top / max + 220;
+	const heightPerc = 140 * top / max + 60;
+	console.log(top);
+	if(top < 50) {
+		$(".links, .coke-image, .about-content").css({"transition": "opacity 2s", "opacity": 1});
+		$(".coke-image").addClass('coke-image-transition');
+	} else {
+		$(".links, .coke-image, .about-content").css({"transition": "opacity 0.5s", "opacity": 0});
+		$(".coke-image").removeClass('coke-image-transition');
+	}
+	const currentScroll = parseInt(($(window).scrollTop() + 50) / $(window).height());
+	if (currentScroll == 0) {
+		$('.history').removeClass('active');
+		$('.about').removeClass('active');
+		$('.contact').removeClass('active');
+	}
+	else if (currentScroll == 1) {
+		$('.history').removeClass('active');
+		$('.about').addClass('active');
+		$('.contact').removeClass('active');
+	}
+	else if (currentScroll == 2) {
+		$('.history').addClass('active');
+		$('.about').removeClass('active');
+		$('.contact').removeClass('active');
+	}
+	else if (currentScroll == 3) {
+		$('.history').removeClass('active');
+		$('.contact').addClass('active');
+		$('.about').removeClass('active');
+	}
+  	$(".logo").css({"top": topPerc + "%", "left": leftPerc + "%"});
+  	$(".logo img").css({"width": widthPerc + "px", "height": heightPerc + "px"});
+});
+$(".home").on("click" ,function(){
+	$("html, body").animate({ 
+            scrollTop: 0 
+        }, "slow");
+   });
+$(".about").on("click" ,function(){
+	const aboutPage = $(window).height();
+	$('.about').addClass('active');
+	$('.history').removeClass('active');
+	$('.contact').removeClass('active');
+	$("html, body").animate({ 
+            scrollTop: aboutPage 
+        }, "slow");
+   });
+$(".history").on("click" ,function(){
+	$('.history').addClass('active');
+	$('.about').removeClass('active');
+	$('.contact').removeClass('active');
+	const historyPage = $(window).height() * 2;
+	$("html, body").animate({ 
+            scrollTop: historyPage 
+        }, "slow");
+   });
+$(".contact").on("click" ,function(){
+	$('.contact').addClass('active');
+	$('.history').removeClass('active');
+	$('.about').removeClass('active');
+	const contactPage = $(window).height() * 3;
+	$("html, body").animate({ 
+            scrollTop: contactPage 
+        }, "slow");
+   });
+</script>
+</body>
+</html>
